@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "my-custom-integration"
+version = "0.1.0"
+description = ""
+authors = ["Georges Bossert <georges.bossert@sekoia.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
